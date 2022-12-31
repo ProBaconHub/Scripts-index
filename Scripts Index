@@ -1,0 +1,31 @@
+--Notification: 
+game.StarterGui:SetCore("SendNotification", {
+           Icon = " "; --You can choose to enter or now, leave it blank if you dont have or dont want any Icon
+            Title = " ", --This is the title which will show at top and font willbe bigger
+            Text = " " --This is the text, enter what you want to say here and you must enter something, use "\r" for skiping line REMINDER: use "\r" but not "/r"
+})
+
+--Print, error and warn: 
+print(" ") --Enter what you want to print in the blanket, delete " if you want to put a input such: local PRINT = "Bla Bla Bla" print(PRINT)
+error(" ") --Same as Print but with different styal and method, you can try it by your self
+warn(" ") --Same as Print but with different styal and method, you can try it by your self
+--REMINDER: Print, error and warn wont show on screen, user have to press "F9" or enter "/console" in chat
+
+--Rejoin server: 
+loacal REJOINTYPE = " " --Enter rejoin type input such: "ReServer"(To rejoin current server) ", "LowServer"(To join a server with low player) and "HopServer"(To server hop)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProBaconHub/Scripts-index/main/Rejoin%20server%20stuff"))()
+
+--Load a raw file: 
+loadstring(game:HttpGet(" "))() --Enter the link of the RAW in blanket REMINDER: It must be a raw link such: https://raw.githubuserconent.com etc.
+
+--Kick: 
+game.Players:WaitForChild("LocalPlayer"):Kick(" ") --Enter the message you want to say in blanket, remove " if you want to put an input such: line 9
+
+--Ban: 
+Current no script for this or not support, you can search in the internet if you really want to use this exploit.
+
+--Server crasher
+Current no script for this or not support, you can search in the internet if you really want to use this exploit. (Server crashing could get ban, 40% ban rating)
+
+--End: 
+Im losing lots of brain cells for thinking what else I can put in this index...
